@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Admin Dashboard</title>
+</head>
+<body>
+<h1>Admin Dashboard</h1>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>User</th>
+        <th>Location</th>
+        <th>Date</th>
+        <th>Status</th>
+        <th>Action</th>
+    </tr>
+    <tr th:each="res : ${reservations}">
+        <td th:text="${res.id}">ID</td>
+        <td th:text="${res.user.firstName + ' ' + res.user.lastName}">User</td>
+        <td th:text="${res.installationLocation}">Location</td>
+        <td th:text="${res.provisionalDate}">Date</td>
+        <td th:text="${res.status}">Status</td>
+        <td>
+            <form th:action="@{/dashboard/updateStatus}" method="post">
+                <input type="hidden" th:value="${res.id}" name="id"/>
+                <select name="status">
+                    <option value="APPROVED">Approve</option>
+                    <option value="DENIED">Deny</option>
+                    <option value="APPROVED_WITH_CHANGES">Approve with Changes</option>
+                </select>
+                <input type="text" name="comment" placeholder="Comment"/>
+                <button type="submit">Update</button>
+            </form>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

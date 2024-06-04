@@ -1,0 +1,739 @@
+GET http://localhost:8080/api/clients/1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080/api/clients/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8080/api/equipment/create
+Content-Type: application/json
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+  "name": "test",
+  "description": "test"
+}
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "adnane@gmail.com",
+  "password": "Password123"
+}
+
+<> 2024-06-04T143907.200.json
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "adnane@gmail.com",
+  "password": "Password123",
+}
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Adnane",
+  "lastName": "Ahmimou",
+  "email": "adnane@gmail.com",
+  "password": "Password123",
+  "role": "ADMIN"
+}
+
+<> 2024-06-04T143820.200.json
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 137
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Adnane",
+  "lastName": "Ahmimou",
+  "email": "adnane@gmail.com",
+  "password": "Password123",
+  "role": "Password123"
+}
+
+###
+
+POST http://localhost:8080/api/equipment/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG5hbmVAZ21haWxsLmNvbSIsImlhdCI6MTcxNzA5MjAxNSwiZXhwIjoxNzE3MDk1NjE1fQ.q-zLXZT5GRP53AGvY6_ocfhHGdA9JSZop1VkRlc5Khg",
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "name": "",
+  "description": ""
+}
+
+###
+
+POST http://localhost:8080/api/equipment/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG5hbmVAZ21haWxsLmNvbSIsImlhdCI6MTcxNzA5MjAxNSwiZXhwIjoxNzE3MDk1NjE1fQ.q-zLXZT5GRP53AGvY6_ocfhHGdA9JSZop1VkRlc5Khg",
+Content-Length: 48
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 0,
+  "name": "",
+  "description": ""
+}
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "adnane@gmaill.com",
+  "password": "password123"
+}
+
+<> 2024-05-30T190124.200.json
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "adnane@gmaill.com",
+  "password": "password123"
+}
+
+<> 2024-05-30T190015.200.json
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 132
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Adnane",
+  "lastName": "Ahmimou",
+  "email": "adnane@gmaill.com",
+  "password": "password123",
+  "role": "ADMIN"
+}
+
+<> 2024-05-30T185921.200.json
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Adnane",
+  "lastName": "Ahmimou",
+  "email": "adnane@gmail.com",
+  "password": "password123",
+  "role": "ADMIN"
+}
+
+###
+
+POST http://localhost:8080/api/equipment/create
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+  "name": "machine test",
+  "description": "test description"
+}
+
+###
+
+POST http://localhost:8080/api/equipment/create
+Content-Type: application/json
+Content-Length: 66
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+  "name": "machine test",
+  "description": "test description"
+}
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 62
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "adnane@gmail.com",
+  "password": "password123"
+}
+
+<> 2024-05-28T162516.200.json
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 130
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Adnane",
+  "lastName": "Ahmiou",
+  "email": "adnane@gmail.com",
+  "password": "password123",
+  "role": "ADMIN"
+}
+
+<> 2024-05-28T162458.200.json
+
+###
+
+POST http://localhost:8080/api/equipment/create
+Content-Type: application/json
+Content-Length: 68
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+  "name": "machine test",
+  "description": "test description"
+}
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hamzakaj@gmail.com",
+  "password": "password123"
+}
+
+<> 2024-05-28T162026.200.json
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Hamza",
+  "lastName": "elkajam",
+  "email": "hamzakaj@gmail.com",
+  "password": "password123",
+  "role": "CLIENT"
+}
+
+<> 2024-05-28T162021.200.json
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hamzakaj@gmail.com",
+  "password": "password123"
+}
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hamzakaj@gmail.com",
+  "password": "password123"
+}
+
+<> 2024-05-28T155534.200.json
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Hamza",
+  "lastName": "elkajam",
+  "email": "hamzakaj@gmail.com",
+  "password": "password123",
+  "role": "CLIENT"
+}
+
+<> 2024-05-28T155527.200.json
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hamzakaj@gmail.com",
+  "password": "password123"
+}
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hamzakaj@gmail.com",
+  "password": "password123"
+}
+
+###
+
+GET http://localhost:8080/dashboard
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Hamza",
+  "lastName": "elkajam",
+  "email": "hamzakaj@gmail.com",
+  "password": "password123",
+  "role": "CLIENT"
+}
+
+<> 2024-05-28T154538.200.json
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hamzakaj@gmail.com",
+  "password": "password123"
+}
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "hamzakaj@gmail.com",
+  "password": "password123"
+}
+
+###
+
+GET http://localhost:8080/login
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Hamza",
+  "lastName": "elkajam",
+  "email": "hamzakaj@gmail.com",
+  "password": "password123",
+  "role": "CLIENT"
+}
+
+<> 2024-05-28T152116.200.json
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Adnane",
+  "lastName": "Ahmimou",
+  "email": "adnane@gmail.com",
+  "password": "password123",
+  "role": "ADMIN"
+}
+
+<> 2024-05-28T152014.200.json
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Adnane",
+  "lastName": "Ahmimou",
+  "email": "adnane@gmail.com",
+  "password": "password123",
+  "role": "ADMIN"
+}
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Adnane",
+  "lastName": "Ahmimou",
+  "email": "adnane@gmail.com",
+  "password": "password123",
+  "role": "ADMIN"
+}
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Adnane",
+  "lastName": "Ahmimou",
+  "email": "adnane@gmail.com",
+  "password": "password123",
+  "role": "ADMIN"
+}
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Adnane",
+  "lastName": "Ahmimou",
+  "email": "adnane@gmail.com",
+  "password": "password123",
+  "role": "ADMIN"
+}
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Adnane",
+  "lastName": "Ahmimou",
+  "email": "adnane@gmail.com",
+  "password": "password123",
+  "role": "ADMIN"
+}
+
+###
+
+GET http://localhost:8080/dashboard
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080/login
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 131
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "Adnane",
+  "lastName": "Ahmimou",
+  "email": "adnane@gmail.com",
+  "password": "password123",
+  "role": "ADMIN"
+}
+
+<> 2024-05-27T110822.200.json
+
+###
+
+GET http://localhost:8080/api/equipment/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-27T110053.200.json
+
+###
+
+GET http://localhost:8080/api/equipment/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-27T110042.200.json
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 111
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "AHmza",
+  "lastName": "Kajam",
+  "email": "hamzakaj@gmail.com",
+  "password": "password123"
+}
+
+###
+
+GET http://localhost:8080/login
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080/login
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 111
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "AHmza",
+  "lastName": "Kajam",
+  "email": "hamzakaj@gmail.com",
+  "password": "password123"
+}
+
+<> 2024-05-27T105707.200.json
+
+###
+
+GET http://localhost:8080/users/me
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8080/api/clients/create
+Content-Type: application/json
+Content-Length: 82
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "CIN": "121415116",
+  "address": "casablanca",
+  "phoneNumber": "1245444142"
+}
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "adilerrai@tyt.mail",
+  "password": "123456adil"
+}
+
+<> 2024-05-25T215504.200.json
+
+###
+
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+Content-Length: 133
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "firstName": "adnane",
+  "lastName": "ahmimou",
+  "email": "adilerrai@tyt.mail",
+  "password": "123456adil",
+    "role": "USER"
+}
+
+<> 2024-05-25T215441.200.json
+
+###
+

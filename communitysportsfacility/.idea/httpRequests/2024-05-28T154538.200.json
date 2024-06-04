@@ -1,0 +1,25 @@
+{
+  "id": 1,
+  "firstName": "Hamza",
+  "lastName": "elkajam",
+  "email": "hamzakaj@gmail.com",
+  "password": "$2a$10$DiMLamNfQwwwKHzH.CvNQ.RIw8Xf2.XoQlTxtAEejyGTMcU9Z07Kq",
+  "createdAt": "2024-05-28",
+  "roles": [
+    {
+      "id": 1,
+      "role": "CLIENT"
+    }
+  ],
+  "updatedAt": "2024-05-28",
+  "accountNonExpired": true,
+  "credentialsNonExpired": true,
+  "username": "hamzakaj@gmail.com",
+  "accountNonLocked": true,
+  "authorities": [
+    {
+      "authority": "CLIENT"
+    }
+  ],
+  "enabled": true
+}
