@@ -16,7 +16,6 @@ public class EquipmentController {
     private EquipmentService equipmentService;
 
     @PostMapping("/create")
-    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<Equipment> createEquipment(@RequestBody Equipment equipment) {
 
         Equipment savedEquipment = equipmentService.saveEquipment(equipment);
